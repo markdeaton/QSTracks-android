@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QSTracks-dbg-devDB</string>
+    <string name="http_svc_url">http://services.arcgis.com/W6FrZiZ4flx7mLJe/arcgis/rest/services/QSTracks_dev/FeatureServer/0/addFeatures</string>
+</resources>
