@@ -174,11 +174,10 @@ public class ActSettings extends PreferenceActivity {
                                 ? listPreference.getEntries()[index]
                                 : null);
             } else if (preference.getKey().equals(getString(
-                    // Start/stop the tracking service
-                    R.string.pref_key_tracking_enabled))
+                     R.string.pref_key_tracking_enabled))
                     && value != null && value instanceof Boolean) {
+                // Start/stop the tracking service
                 boolean isTrackingEnabled = (boolean) value;
-
                 if (isTrackingEnabled) startLogging();
                 else stopLogging();
             } else if (preference.getKey().equals(getString(R.string.pref_key_tracking_interval))) {
@@ -263,6 +262,5 @@ public class ActSettings extends PreferenceActivity {
         Intent intent = new Intent();
         intent.setClass(this, SvcLocationLogger.class);
         stopService(intent);
-
     }
 }
