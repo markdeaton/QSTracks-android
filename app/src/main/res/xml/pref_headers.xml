@@ -2,13 +2,13 @@
 
     <!-- These settings headers are only used on tablets. -->
 
-    <!--<header android:fragment="apl.esri.com.qstracks.ActSettings$GeneralPreferenceFragment"-->
+    <!--<header android:fragment="com.esri.apl.qstracks.ActSettings$GeneralPreferenceFragment"-->
         <!--android:title="@string/pref_header_general" />-->
 
-    <!--<header android:fragment="apl.esri.com.qstracks.ActSettings$NotificationPreferenceFragment"-->
+    <!--<header android:fragment="com.esri.apl.qstracks.ActSettings$NotificationPreferenceFragment"-->
         <!--android:title="@string/pref_header_notifications" />-->
 
-    <!--<header android:fragment="apl.esri.com.qstracks.ActSettings$DataSyncPreferenceFragment"-->
+    <!--<header android:fragment="com.esri.apl.qstracks.ActSettings$DataSyncPreferenceFragment"-->
         <!--android:title="@string/pref_header_data_sync" />-->
 
 </preference-headers>

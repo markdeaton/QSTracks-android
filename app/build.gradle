@@ -12,7 +12,7 @@ android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
     defaultConfig {
-        applicationId "apl.esri.com.qstracks"
+        applicationId "com.esri.apl.qstracks"
         minSdkVersion 9
         targetSdkVersion 22
         versionCode 1

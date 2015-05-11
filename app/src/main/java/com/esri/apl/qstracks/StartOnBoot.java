@@ -1,4 +1,4 @@
-package apl.esri.com.qstracks;
+package com.esri.apl.qstracks;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package apl.esri.com.qstracks;
+package com.esri.apl.qstracks;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import apl.esri.com.qstracks.data.QSFeature;
+import com.esri.apl.qstracks.data.QSFeature;
 
 public class SvcLocationLogger
         extends     Service

@@ -1,4 +1,4 @@
-package apl.esri.com.qstracks.data;
+package com.esri.apl.qstracks.data;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,7 +11,7 @@ import android.text.TextUtils;
 
 import java.security.InvalidParameterException;
 
-import apl.esri.com.qstracks.R;
+import com.esri.apl.qstracks.R;
 
 /**
  * Created by mark4238 on 4/29/2015.
